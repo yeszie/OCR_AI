@@ -1,17 +1,17 @@
-# Przetwarzanie dokumentów z wykorzystaniem Azure Form Recognizer, EasyOCR, GPT i Elasticsearch
+# Przetwarzanie dokumentów z wykorzystaniem Azure AI, EasyOCR, GPT i Elasticsearch
 
-W tym projekcie łączymy technologie OCR (Optical Character Recognition) z możliwościami modeli językowych, takich jak GPT, aby przetwarzać dokumenty PDF i obrazy, a następnie przechowywać i analizować dane w systemie **Elasticsearch**. Wykorzystujemy **Azure Form Recognizer**, **EasyOCR**, **GPT**, oraz **Elasticsearch**, aby zapewnić pełny przepływ pracy od rozpoznania tekstu po inteligentne wyszukiwanie i analizę danych.
+W tym projekcie łączymy technologie OCR (Optical Character Recognition) z możliwościami modeli językowych, takich jak GPT, aby przetwarzać dokumenty PDF i obrazy, a następnie przechowywać i analizować dane w systemie **Elasticsearch**. Wykorzystujemy **Azure AI**, **EasyOCR**, **GPT**, oraz **Elasticsearch**, aby zapewnić pełny przepływ pracy od rozpoznania tekstu po inteligentne wyszukiwanie i analizę danych.
 
-## 1. Azure Form Recognizer – Najlepsze rozwiązanie
+## 1. Azure AI – Najlepsze rozwiązanie
 
-**Azure Form Recognizer** to najnowocześniejsze narzędzie OCR oferujące zaawansowane funkcje, które czynią go idealnym wyborem do masowego przetwarzania dokumentów. Oto kilka powodów, dla których wybraliśmy Azure:
+**Azure AI** to najnowocześniejsze narzędzie OCR oferujące zaawansowane funkcje, które czynią go idealnym wyborem do masowego przetwarzania dokumentów. Oto kilka powodów, dla których wybraliśmy Azure:
 
 - **Wysoka precyzja**: Azure radzi sobie świetnie z rozpoznawaniem tekstu, zarówno drukowanego, jak i ręcznie pisanego, co sprawia, że jest niezastąpiony w środowiskach profesjonalnych.
 - **Obsługa złożonych struktur**: Azure może rozpoznawać nie tylko tekst, ale także tabele, style, a nawet dane formularzy, co czyni go idealnym narzędziem do przetwarzania skomplikowanych dokumentów.
 - **Integracja z innymi usługami**: Azure jest częścią chmury Microsoft, co oznacza, że można łatwo zintegrować go z innymi narzędziami, jak np. modele GPT czy bazy danych.
 - **Skalowalność i wydajność**: Dzięki działaniu w chmurze, Azure jest w stanie przetwarzać duże ilości dokumentów jednocześnie, co pozwala na skalowanie przetwarzania w miarę wzrostu potrzeb.
 
-Jeśli koszty nie stanowią problemu, Azure Form Recognizer jest bezkonkurencyjnym wyborem w zakresie precyzji i funkcjonalności.
+Jeśli koszty nie stanowią problemu, Azure AI jest bezkonkurencyjnym wyborem w zakresie precyzji i funkcjonalności.
 
 ## 2. EasyOCR – Alternatywa do lokalnego przetwarzania
 
@@ -25,7 +25,7 @@ Jednak w środowisku, gdzie kluczowe są precyzja i zaawansowane funkcje OCR, Az
 
 ## 3. Integracja GPT – Zaawansowana analiza dokumentów
 
-Po przetworzeniu dokumentu za pomocą OCR, zarówno Azure Form Recognizer, jak i EasyOCR, można wykorzystać model językowy **GPT** do dalszej analizy uzyskanych danych. Model GPT pozwala na bardziej inteligentne i elastyczne podejście do analizy treści dokumentów, takie jak:
+Po przetworzeniu dokumentu za pomocą OCR, zarówno Azure AI, jak i EasyOCR, można wykorzystać model językowy **GPT** do dalszej analizy uzyskanych danych. Model GPT pozwala na bardziej inteligentne i elastyczne podejście do analizy treści dokumentów, takie jak:
 
 - **Wydobywanie kluczowych informacji**: GPT może być używany do analizowania i podsumowywania rozpoznanego tekstu, identyfikując najważniejsze elementy w dokumencie, takie jak dane kontaktowe, liczby, terminy czy decyzje biznesowe.
 - **Generowanie odpowiedzi na podstawie dokumentu**: Po rozpoznaniu tekstu, GPT może generować odpowiedzi na pytania związane z dokumentem, co jest przydatne w przypadku raportów, faktur czy umów.
@@ -54,7 +54,7 @@ Po zakończeniu przetwarzania dokumentów przy użyciu OCR i GPT, dane są przes
 
 ## 5. Jak to działa – Przykład przepływu
 
-1. **OCR za pomocą Azure Form Recognizer lub EasyOCR**: Najpierw dokument (PDF, obraz) jest przetwarzany przez wybrane narzędzie OCR, aby rozpoznać zawarty w nim tekst i metadane.
+1. **OCR za pomocą Azure AI lub EasyOCR**: Najpierw dokument (PDF, obraz) jest przetwarzany przez wybrane narzędzie OCR, aby rozpoznać zawarty w nim tekst i metadane.
 2. **Czyszczenie danych**: Tekst jest czyszczony z niepotrzebnych znaków i spacji, co przygotowuje go do dalszej analizy.
 3. **Wysyłanie do GPT**: Przetworzony tekst jest następnie wysyłany do modelu GPT z określonymi instrukcjami, np. „Podsumuj dokument” lub „Wyszukaj kluczowe informacje”.
 4. **Analiza i zwrot danych**: GPT analizuje dokument i zwraca odpowiedzi zgodnie z przekazanymi instrukcjami, dostosowując się do specyficznych potrzeb użytkownika.
@@ -62,6 +62,6 @@ Po zakończeniu przetwarzania dokumentów przy użyciu OCR i GPT, dane są przes
 
 ## 6. Podsumowanie
 
-**Azure Form Recognizer** pozostaje najlepszym wyborem do profesjonalnego przetwarzania dokumentów dzięki swojej precyzji, obsłudze złożonych struktur i integracji z chmurą. **EasyOCR** może być używane jako alternatywa dla lokalnych zadań lub mniejszych projektów, gdy nie potrzebujemy pełnej mocy Azure. 
+**Azure AI** pozostaje najlepszym wyborem do profesjonalnego przetwarzania dokumentów dzięki swojej precyzji, obsłudze złożonych struktur i integracji z chmurą. **EasyOCR** może być używane jako alternatywa dla lokalnych zadań lub mniejszych projektów, gdy nie potrzebujemy pełnej mocy Azure. 
 
 Jednak to, co czyni nasze rozwiązanie wyjątkowym, to integracja z **GPT** oraz finalne przesyłanie danych do **Elasticsearch**. Dzięki Elasticsearch firmy mogą indeksować i przeszukiwać swoje dane w czasie rzeczywistym, co zwiększa ich produktywność i umożliwia lepszą organizację dokumentów. Połączenie OCR, GPT i Elasticsearch oferuje kompletną platformę do automatyzacji przetwarzania dokumentów, co pozwala firmom na lepsze zarządzanie danymi i optymalizację procesów biznesowych.
