@@ -8,10 +8,7 @@ W tym projekcie łączymy technologie OCR (Optical Character Recognition) z moż
 
 - **Wysoka precyzja**: Azure radzi sobie świetnie z rozpoznawaniem tekstu, zarówno drukowanego, jak i ręcznie pisanego, co sprawia, że jest niezastąpiony w środowiskach profesjonalnych.
 - **Obsługa złożonych struktur**: Azure może rozpoznawać nie tylko tekst, ale także tabele, style, a nawet dane formularzy, co czyni go idealnym narzędziem do przetwarzania skomplikowanych dokumentów.
-- **Integracja z innymi usługami**: Azure jest częścią chmury Microsoft, co oznacza, że można łatwo zintegrować go z innymi narzędziami, jak np. modele GPT czy bazy danych.
-- **Skalowalność i wydajność**: Dzięki działaniu w chmurze, Azure jest w stanie przetwarzać duże ilości dokumentów jednocześnie, co pozwala na skalowanie przetwarzania w miarę wzrostu potrzeb.
 
-Jeśli koszty nie stanowią problemu, Azure AI jest bezkonkurencyjnym wyborem w zakresie precyzji i funkcjonalności.
 
 ## 2. EasyOCR – Alternatywa do lokalnego przetwarzania
 
